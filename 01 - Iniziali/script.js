@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function getInitials(array){
     const iniziali = [];
   for (let i = 0; i<array.length; i ++){
-    iniziali[i]= names[i][0];
+    iniziali[i]= array[i][0];
   }
   return iniziali;
 }
