@@ -6,8 +6,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // Dichiara la funzione qui.
 
 
-// Invoca la funzione qui e stampa il risultato in console
 
+// Invoca la funzione qui e stampa il risultato in console
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
