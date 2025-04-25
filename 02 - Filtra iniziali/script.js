@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
  function StartWith (array, lettera) {
     const risultato= [];
     for(let i =0; i<array.length; i++){
-        if(lettera==array[i][0]) {
+        if(lettera.toLowerCase()==array[i][0].toLowerCase()) {
             risultato[risultato.length]=array[i]
         }
         
@@ -17,7 +17,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const risultato= StartWith(names, 'A');
+const risultato= StartWith(names, 'a');
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
