@@ -9,10 +9,23 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function StrName(nome){
+    const d = new Date();
+    let hour = d.getHours();
+    if(hour<=13){
+        return "buongiorno " + nome
+    } else if (hour<=17){
+        return "buon pomeriggio " + nome
+    } else {
+        return "buona sera " + nome
+    }
+
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+const saluto = StrName(name)
+console.log(saluto)
+ 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.

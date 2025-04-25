@@ -4,7 +4,7 @@ const name= "mario"
 // Dichiara la funzione qui.
 
 function StrName(nome) {
-    return "ciao"+nome;
+    return " ciao " + nome;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
